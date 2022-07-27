@@ -116,7 +116,7 @@
  line-height: 1.33;
  letter-spacing: 0.02em;
  color: var(--accent-txt-cl);
- 
+ transition: color 250ms var(--cubic);
  
  
  color: #212121;
@@ -158,6 +158,7 @@ justify-content: center;
  line-height: calc(16 / 14);
  letter-spacing: 0.02em;
  color: #757575;
+ transition: color 250ms var(--cubic);
  }
  .header-mail{
     margin-right: 30px;
@@ -237,7 +238,7 @@ border-radius: 4px;
  background-color: #2196F3;
  color: #FFFFFF;
  cursor: pointer;
- 
+ transition: background-color 250ms var(--cubic);
  }
  .button:hover,
  .button:focus{
@@ -318,6 +319,7 @@ padding-bottom: 27px;
 position: absolute;
 bottom: 0;
 left: 0;
+transition: 250ms var(--cubic);
 
  }
  .about-subtitle:hover,
@@ -453,6 +455,9 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 94px;
     
  }
+ .photo-wrapper{
+   transition: box-shadow 250ms var(--cubic);
+ }
  .photo-wrapper:hover
  {  cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -528,6 +533,7 @@ border-radius: 4px;
     background-color: #F5F4FA;
     cursor: pointer;
     height: 38px;
+    transition: background-color 250ms var(--cubic), color 250ms var(--cubic), box-shadow 250ms var(--cubic);
  }
  .btn-portfolio:hover,
  .btn-portfolio:focus{
@@ -570,6 +576,7 @@ border-radius: 4px;
     border-radius: 50%;
     color: #AFB1B8;
     margin-right: 10px;
+    transition: color 250ms var(--cubic), backgroun-color 250ms var(--cubic);
  }
  .social-icon{
     fill: currentColor;
@@ -618,6 +625,7 @@ border: 1px solid #AFB1B8;
 border-radius: 4px;
 color: #AFB1B8;
 background-color: #FFFFFF;
+transition: color 250ms var(--cubic), border 250ms var(--cubic);
 }
 
 
@@ -656,6 +664,7 @@ background-color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);;
     border-radius: 50%;
     color: #ffffff;
+    transition: background-color 250ms var(--cubic);
  }
  .join-icon{
     
@@ -674,7 +683,7 @@ color: #FFFFFF;
 margin-bottom: 20px;
  }
 
- .backdrop{
+/* .backdrop{
     position: fixed;
     top: 0;
     left: 0;
@@ -703,8 +712,8 @@ margin-bottom: 20px;
  }
  .modal-btn{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 8px;
 
 
     width: 30px;
@@ -713,4 +722,4 @@ margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
     cursor: pointer;
- }
+ }*/
